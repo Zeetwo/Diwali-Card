@@ -115,11 +115,16 @@ audio::-webkit-media-controls-panel {
     padding: 2rem;
 }
 .thank-you-text p {
-    font-size: 18px;
+    font-size: 22px;
 }
 .thank-you-text h2 {
     font-family: "Style Script", cursive;
     font-size: 50px;
+}
+.thanks{
+    font-size: 20px;
+    text-align: right;
+    text-align: center;
 }
 @media (max-width: 1000px) {
     .para-audio{
