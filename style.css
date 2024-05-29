@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    font-family:  "Salsa", cursive;
+}
+.hero-sec{
+    min-height: 100vh;
+    background-image: url(Images/orange-backdrop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.jhalar{
+    width: 300px;
+    margin-bottom: -100px;
+}
+.para-audio{
+    margin-left: 30rem;
+}
+.hero-sec p {
+    font-size: 46px;
+    color:#1E1E1E;
+    max-width: 400px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+audio::-webkit-media-controls-panel {
+     background-color: azure;
+    }
+
+.audio-container{
+    background-color: azure;
+    max-width: 500px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+}
+.sec2{
+    background-image: linear-gradient(to right, #f7a901f8 , #FB8A00);
+    padding: 1px;
+}
+.sec2 img {
+    max-width: 1400px;
+    width: 100%;
+    display: block;
+    margin-inline: auto;
+}
+.horizonal-devider{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin:1rem;
+
+}
+.horizontal-line{
+    height: 4px;
+    background-color: #FBD8A4;
+    width: 480px;
+
+}
+.dots{
+    height: 10px;
+    width: 10px;
+    background-color: #FBD8A4;
+    border-radius: 100%;
+}
+.sec2 h2{
+    font-family: "Style Script", cursive;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+}
+.sec3 , .sec4{
+    background-image: linear-gradient(to right, #f7a901f8 , #FB8A00);
+    padding: 1px;
+}
+.white-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.white-card{
+    background-color: white;
+    width: 850px;
+    padding: 4rem;
+    border-radius: 22px; 
+    height: 400px;
+}
+.little-girl{
+    width: 340px;
+    margin-left: -80px;
+}
+.white-card p{
+    font-size: 2rem;
+}
+.laxmi-ganesh-card{
+    background-image: linear-gradient(to right, #f7a901f8 , #FB8A00);
+    padding: 1px;
+} 
+.img-contanier2{
+    background-color: white;
+    padding: 4rem;
+    border-radius: 24px;
+    max-width: 1100px;
+    display: flex;
+    margin-inline: auto;
+}
+.img-contanier2 img{
+    width: 50%;
+}
+.thank-you-text{
+    max-width: 1000px;
+    margin-inline: auto;
+    padding: 2rem;
+}
+.thank-you-text p {
+    font-size: 18px;
+}
+.thank-you-text h2 {
+    font-family: "Style Script", cursive;
+    font-size: 50px;
+}
+@media (max-width: 1000px) {
+    .para-audio{
+        margin-left: 1rem;
+    }
+    .jhalar{
+        margin-bottom: 0;
+    }
+    .hero-sec p{
+        font-size: 28px;
+    }
+    .deepak01{
+        display: block;
+        margin-left: auto;
+    }
+    .deepak02{
+        display: none;
+    }
+    .music-icon01 ,.music-icon02 {
+        display: none;
+    }
+    .sec2 h2 {
+        font-size: 40px;
+    }
+    .horizontal-line{
+        height: 3px;
+    }
+    .little-girl{
+        width: 250px;
+    }
+    .white-card p{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:840px){
+    .jhalar{
+        width: 250px;
+    }
+    .hero-sec p{
+        font-size: 32px;
+    }
+    .sec2 h2 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width:550px){
+    .jhalar{
+        width: 200px;
+    }
+    .hero-sec p{
+        font-size: 24px;
+    }
+    .deepak01{
+        width: 100%;
+    }
+    .audio-container span {
+        display: none;
+    }
+    .sec2 h2 {
+        font-size: 20px;
+    }
+    .horizontal-line{
+        height: 2px;
+    }
+}
+@media (max-width:650px){
+    .sec2{
+        background-image: linear-gradient(to right, #f7a901f8 , #F7A501);
+    }
+    .little-girl{
+        width: 180px;
+    }
+    .white-card p{
+        font-size: 1rem;
+    }
+    .white-card{
+        height: 270px;
+        padding: 1rem 3.5rem 1rem 1rem ;
+    }
+    .thank-you-text h2 {
+        font-size: 30px;
+    }
+
+}
